@@ -1,0 +1,146 @@
+Body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	background-color: white;
+	display: grid;
+}
+
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #B2ADAE;
+}
+
+
+Header{
+    background-color: #6491AF;
+    padding-bottom: 0px;
+    
+}
+
+Header::after{
+	content: '';
+	display:table;
+	clear: both;
+}
+
+.logo{
+	float: left;
+	padding-top: 30px;
+	padding-left: 70px;
+	padding-bottom: 0px; /*change this to center with nav*/
+	min-width: 0px;
+}
+
+nav{
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 70px;
+}
+	
+
+nav ul{
+    margin: 0;
+    padding-top: 33px;
+    padding-right: 33px;
+    padding-left: 33px;
+    padding-bottom: 0px;
+    list-style: none;
+    min-width: 0px;
+}
+
+
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 20px;
+		/*change this to center with logo*/
+	
+	}
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 2px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav hover{
+	color:white
+}
+
+.intro_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+}
+/* Header title */
+.header{
+	background-size: cover;
+	font-size: 80px;
+	background-attachment: fixed;
+	text-align: left;
+	color: white;
+	text-shadow: 3px 3px #638DA7;
+	margin-top: -489px;
+	margin-bottom: 163px;
+	padding-left: 40px;
+}
+
+.light {
+	font-weight: bold;
+	color: white;
+	font-size: 33px;
+	text-align: left;
+	vertical-align: 125px;
+	margin-right: 13px;
+}
+
+
+
+footer{
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    background-color: #FFFFFF;
+    font-style: italic;
+    font-variant: small-caps;
+    top: 202px;
+	margin-top: auto
+}
+
+
+.headerimage {
+    position: static;
+    max-width: 100%;
+    max-height: 100%;
+	
+}
+
+h3{
+	text-align: left;
+	font-size: medium;
+	font-weight: lighter;
+	font-variant: normal;
+	margin-top: -340px;
+	color: #FFFFFF;
+	padding-left: 40px;
+}
+
+.container{
+	display: table-column;
+	box-sizing: content-box;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+	
